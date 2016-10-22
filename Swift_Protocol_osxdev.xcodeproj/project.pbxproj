@@ -36,6 +36,9 @@
 		89EF4E801DBBA728004552C0 /* Swift_Protocol_osxdevTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_Protocol_osxdevTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EF4E841DBBA728004552C0 /* Swift_Protocol_osxdevTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Protocol_osxdevTests.swift; sourceTree = "<group>"; };
 		89EF4E861DBBA728004552C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89EF4E901DBBA921004552C0 /* Syntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Syntax.playground; sourceTree = "<group>"; };
+		89EF4E921DBBAC2B004552C0 /* Requirement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Requirement.playground; sourceTree = "<group>"; };
+		89EF4E941DBBAFA7004552C0 /* Method Requirements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Method Requirements.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,9 @@
 		89EF4E6E1DBBA727004552C0 /* Swift_Protocol_osxdev */ = {
 			isa = PBXGroup;
 			children = (
+				89EF4E8F1DBBA913004552C0 /* Protocl Syntax */,
+				89EF4E911DBBAC1A004552C0 /* Property Requirements   */,
+				89EF4E931DBBAF7B004552C0 /* Method Requirements   */,
 				89EF4E6F1DBBA727004552C0 /* AppDelegate.swift */,
 				89EF4E711DBBA727004552C0 /* ViewController.swift */,
 				89EF4E731DBBA727004552C0 /* Main.storyboard */,
@@ -94,6 +100,30 @@
 				89EF4E861DBBA728004552C0 /* Info.plist */,
 			);
 			path = Swift_Protocol_osxdevTests;
+			sourceTree = "<group>";
+		};
+		89EF4E8F1DBBA913004552C0 /* Protocl Syntax */ = {
+			isa = PBXGroup;
+			children = (
+				89EF4E901DBBA921004552C0 /* Syntax.playground */,
+			);
+			name = "Protocl Syntax";
+			sourceTree = "<group>";
+		};
+		89EF4E911DBBAC1A004552C0 /* Property Requirements   */ = {
+			isa = PBXGroup;
+			children = (
+				89EF4E921DBBAC2B004552C0 /* Requirement.playground */,
+			);
+			name = "Property Requirements  ";
+			sourceTree = "<group>";
+		};
+		89EF4E931DBBAF7B004552C0 /* Method Requirements   */ = {
+			isa = PBXGroup;
+			children = (
+				89EF4E941DBBAFA7004552C0 /* Method Requirements.playground */,
+			);
+			name = "Method Requirements  ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
