@@ -39,6 +39,13 @@
 		89EF4E901DBBA921004552C0 /* Syntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Syntax.playground; sourceTree = "<group>"; };
 		89EF4E921DBBAC2B004552C0 /* Requirement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Requirement.playground; sourceTree = "<group>"; };
 		89EF4E941DBBAFA7004552C0 /* Method Requirements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Method Requirements.playground"; sourceTree = "<group>"; };
+		89EF4E961DBBBA6B004552C0 /* DiceGame.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DiceGame.playground; sourceTree = "<group>"; };
+		89EF4E981DBBBAD9004552C0 /* ClassOnly.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ClassOnly.playground; sourceTree = "<group>"; };
+		89EF4E9A1DBBC653004552C0 /* Composition.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Composition.playground; sourceTree = "<group>"; };
+		89EF4E9C1DBBC6E4004552C0 /* Checking for Protocol Conformance  .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Checking for Protocol Conformance  .playground"; sourceTree = "<group>"; };
+		89EF4E9E1DBBC781004552C0 /* Optional Protocol Requirements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Optional Protocol Requirements.playground"; sourceTree = "<group>"; };
+		89EF4EA01DBBCC1B004552C0 /* Extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extensions.playground; sourceTree = "<group>"; };
+		89EF4EA21DBBCCF3004552C0 /* Prividing Default Implementation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Prividing Default Implementation.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +90,14 @@
 				89EF4E8F1DBBA913004552C0 /* Protocl Syntax */,
 				89EF4E911DBBAC1A004552C0 /* Property Requirements   */,
 				89EF4E931DBBAF7B004552C0 /* Method Requirements   */,
+				89EF4E951DBBBA1A004552C0 /* Dice */,
+				89EF4E971DBBBAC2004552C0 /* Class-Only Protocols   */,
+				89EF4E991DBBC614004552C0 /* Protocol Composition */,
+				89EF4E9B1DBBC6CD004552C0 /* Checking */,
+				89EF4E9D1DBBC74A004552C0 /* Optional Protocol Requirements   */,
+				89EF4E9F1DBBCC06004552C0 /* Protocol Extensions   */,
+				89EF4EA11DBBCCDC004552C0 /* Providing Default Implementations */,
+				89EF4EA31DBBCDB6004552C0 /* Adding Constraints to Protocol Extensions   */,
 				89EF4E6F1DBBA727004552C0 /* AppDelegate.swift */,
 				89EF4E711DBBA727004552C0 /* ViewController.swift */,
 				89EF4E731DBBA727004552C0 /* Main.storyboard */,
@@ -124,6 +139,69 @@
 				89EF4E941DBBAFA7004552C0 /* Method Requirements.playground */,
 			);
 			name = "Method Requirements  ";
+			sourceTree = "<group>";
+		};
+		89EF4E951DBBBA1A004552C0 /* Dice */ = {
+			isa = PBXGroup;
+			children = (
+				89EF4E961DBBBA6B004552C0 /* DiceGame.playground */,
+			);
+			name = Dice;
+			sourceTree = "<group>";
+		};
+		89EF4E971DBBBAC2004552C0 /* Class-Only Protocols   */ = {
+			isa = PBXGroup;
+			children = (
+				89EF4E981DBBBAD9004552C0 /* ClassOnly.playground */,
+			);
+			name = "Class-Only Protocols  ";
+			sourceTree = "<group>";
+		};
+		89EF4E991DBBC614004552C0 /* Protocol Composition */ = {
+			isa = PBXGroup;
+			children = (
+				89EF4E9A1DBBC653004552C0 /* Composition.playground */,
+			);
+			name = "Protocol Composition";
+			sourceTree = "<group>";
+		};
+		89EF4E9B1DBBC6CD004552C0 /* Checking */ = {
+			isa = PBXGroup;
+			children = (
+				89EF4E9C1DBBC6E4004552C0 /* Checking for Protocol Conformance  .playground */,
+			);
+			name = Checking;
+			sourceTree = "<group>";
+		};
+		89EF4E9D1DBBC74A004552C0 /* Optional Protocol Requirements   */ = {
+			isa = PBXGroup;
+			children = (
+				89EF4E9E1DBBC781004552C0 /* Optional Protocol Requirements.playground */,
+			);
+			name = "Optional Protocol Requirements  ";
+			sourceTree = "<group>";
+		};
+		89EF4E9F1DBBCC06004552C0 /* Protocol Extensions   */ = {
+			isa = PBXGroup;
+			children = (
+				89EF4EA01DBBCC1B004552C0 /* Extensions.playground */,
+			);
+			name = "Protocol Extensions  ";
+			sourceTree = "<group>";
+		};
+		89EF4EA11DBBCCDC004552C0 /* Providing Default Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				89EF4EA21DBBCCF3004552C0 /* Prividing Default Implementation.playground */,
+			);
+			name = "Providing Default Implementations";
+			sourceTree = "<group>";
+		};
+		89EF4EA31DBBCDB6004552C0 /* Adding Constraints to Protocol Extensions   */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Adding Constraints to Protocol Extensions  ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

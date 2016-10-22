@@ -30,5 +30,5 @@ protocol AnotherProtocol {
 class FollowStaticPropertyRequirement: AnotherProtocol {
     internal var someTypeProperty: Int = 0
     
-    //    internal static var someTypeProperty: Int = 0
+    internal static var someTypeProperty: Int = 0
 }
